@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Ósmar Rodríguez Homepage, Standard deviation confidence interval</title>
+</head>
+<body>
+<h2 align="LEFT">Standard deviation confidence interval</h2>
+
+Let SSD the sample standard deviation computed with N residuals (r_i) from a regression with k free parameters, i.e.,
+<p><img style="vertical-align: middle;" src="figs/sdci/ssd.png" border="0" /></p>
+If those measurements come from a normal parent population with standard deviation SD, then the quantity 
+<p><img style="vertical-align: middle;" src="figs/sdci/sdstat.png" border="0" /></p>
+has a chi-square distribution with N-k degrees of freedom <a href="https://www.jstor.org/stable/1235126"> (e.g., Lu 1960)</a>. In this case, the confidence interval (CI) on SD at a confidence level of 100(1-a) per cent is given by
+<p><img style="vertical-align: middle;" src="figs/sdci/ci.png" border="0" /></p>
+where Q is the quantile function of the chi-square distribution with N-k degrees of freedom.
+<br>
+<br>
+An online python calculator to compute the SD confidence interval is available
+<a href="https://repl.it/@olrodrig/StandardDeviationLimits#main.py"> HERE</a>
+<br>
+<br>
+<br>
+<a href="index.html"> Back to home</a>
